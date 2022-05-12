@@ -11,8 +11,8 @@
                        ^연산자operator  ^피연산자operand
 ```
 
-- 이항연산자(binary operator): 2 + 3, 3 * 5
-- 단항연산자(unary operator): +3, -6
+- 이항연산자(binary operator): 2 + 3, 3 * 5 (두 숫자를 계산하는 연산자)
+- 단항연산자(unary operator): +3, -6 (한 숫자를 계산하는 연산)
 
 예시에서는 이항연산자만 다룸.
 
