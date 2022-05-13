@@ -21,7 +21,7 @@ class SinglyLinkedList:
     if len(self) == 0:
       self.head = v
     else:
-      tail = self.head
+      tail = self.head            #head노드부터 내려가면서 다음값이 none인 tail노드를 찾는 과정
       while tail.next != None:
         tail = tail.next
       tail.next = v
@@ -81,7 +81,7 @@ def popBack(self):
 
 ## 한방향 연결리스트의 수행 시간
 
-- `pushFront`: O(1)
+- `pushFront`: O(1) #head를 아니까
 - `popFront`: O(1)
-- `pushBack`: O(n)
+- `pushBack`: O(n) #head에서 tail노드까지 내려가야 되니까
 - `popBack`: O(n)
