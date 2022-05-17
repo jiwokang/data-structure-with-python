@@ -30,6 +30,8 @@
  b     c
   \   / \
    d e  f
+  /\ /
+ h i g
 ```
 
 - 표현법 1) 리스트: `A = [a, b, c None, d, e, f, None, None, h, i, g]`
