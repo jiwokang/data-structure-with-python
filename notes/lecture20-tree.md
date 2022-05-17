@@ -35,5 +35,8 @@
 ```
 
 - 표현법 1) 리스트: `A = [a, b, c None, d, e, f, None, None, h, i, g]`
+- 
+<img width="605" alt="image" src="https://user-images.githubusercontent.com/91314143/168820209-b540f9aa-218b-4952-bebe-9a2cc8af0d94.png">
+
 - 표현법 2) 리스트(재귀적): `[a, [ [b, [], [d, [], []] ], [c, [e, [], []] [f, [], [] ]]]`
 - 표현법 3) 노드 클래스를 이용: 다음에 다시 살펴볼 것
