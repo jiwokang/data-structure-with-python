@@ -94,8 +94,8 @@ A[0] 을 없애면서 가장 마지막 리프노드를 루트로 옮긴다. 그 
 delete_max: # O(logN)
   if len(A) == 0: return None
   key = A[0]
-  A[0], A[len(A) - 1] = A[len(A) - 1], A[0]
-  A.pop()
+  A[0], A[len(A) - 1] = A[len(A) - 1], A[0] #마지막 노드와 최상위 노드의 위치를 바꾼다.
+  A.pop() #최상위 노드가 맨 아래로 이동했으므로 이를 지워준다.
   heapify_down(0, len(A))
   return key
 ```
