@@ -31,7 +31,7 @@ a.left = b
 a.right = c
 b.parent = c.parent = a
 b.left = d
-d.paren = b
+d.parent = b
 ```
 
 ```txt
